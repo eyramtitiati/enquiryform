@@ -1,0 +1,47 @@
+
+.view-data-container {
+    margin: 20px;
+  }
+  
+  .view-data-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .view-data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .view-data-table th,
+  .view-data-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .view-data-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .view-data-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  .view-data-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .view-data-button:focus {
+    outline: none;
+  }
+  

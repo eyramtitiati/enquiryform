@@ -1,0 +1,36 @@
+{
+    "name": "full-stack-hiring-test",
+    "version": "1.0.0",
+    "description": "Full-stack developer hiring test framework.",
+    "main": "index.js",
+    "engines": {
+        "node": "16.x.x"
+    },
+    "scripts": {
+        "build": "cd client && npm install && npm run build",
+        "api": "node api/index.js",
+        "frontend": "cd frontend && npm run start",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PurpleWave/full-stack-hiring-test.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/PurpleWave/full-stack-hiring-test/issues"
+    },
+    "homepage": "https://github.com/PurpleWave/full-stack-hiring-test#readme",
+    "dependencies": {
+        "express": "^4.18.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-hook-form": "^7.45.2",
+        "react-router-dom": "^6.14.2",
+        "react-scripts": "^5.0.1",
+        "sqlite3": "^5.1.2",
+        "web-vitals": "^3.4.0"
+    }
+}
